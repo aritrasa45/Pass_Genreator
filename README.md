@@ -9,5 +9,8 @@
 
 <h2>how to install??</h2>
 
-<br>pip install requirements.txt</br>
-<pre></pre>
+
+<pre>pip install requirements.txt</pre>
+<br>
+<pre>python main.py</pre>
+<br>
