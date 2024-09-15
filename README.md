@@ -12,5 +12,7 @@
 
 <pre>pip install requirements.txt</pre>
 <br>
+<pre>cd Pass_Genereator</pre>
+<br>
 <pre>python main.py</pre>
 <br>
