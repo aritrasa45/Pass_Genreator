@@ -1,17 +1,13 @@
-# instagram :- @0aritrasa1
-import string
+
+
+
 import random
+import string
 import time
-from colorama import *
+import sys
 
-init()
 
-def color():
-	print(Style.RESET_ALL)
 
-def exit():
-	time.sleep(1)
-	sys.exit()
 
 def generate_password(length=12):
     characters = string.ascii_letters + string.digits + string.punctuation
@@ -19,17 +15,21 @@ def generate_password(length=12):
     return password
 
 
-print(f"{Fore.CYAN}Press X to exit")
-color()
+print(f"Press X to exit")
 time.sleep(0.5)
 
 
 while True:
-	pass_len = int(input(f"\n{Fore.RED}Enter the length of pass  :   "))
-	if pass_len == 'x':
-		exit()
+	pass_len = input(f"\nEnter the length of pass  :   ")
+	if pass_len == 'x' or pass_len == "X":
+		sys.exit()
+		
 	else:
-		pass	
-	color()
-	gen_pass =generate_password(pass_len)
-	print("\n",Fore.GREEN+gen_pass)
+		try:
+		    pass_len = int(pass_len)
+		    gen_pass =generate_password(pass_len)
+		    print("\n",gen_pass)
+		
+		except:
+		    print("only int are allowed!")
+		    		    
