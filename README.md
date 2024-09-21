@@ -1,5 +1,5 @@
  <h1 align="center">
-  Pass-Genereator
+  Password-Genereator
 </h1>
 
 <h3 align="center">
@@ -9,10 +9,8 @@
 
 <h2>how to install??</h2>
 
-
-<pre>pip install requirements.txt</pre>
-<br>
-<pre>cd Pass_Genereator</pre>
+<pre>git clone https://github.com/aritrasa45/Pass_Genreator.git</pre>
+<pre>cd Pass_Genreator</pre>
 <br>
 <pre>python main.py</pre>
 <br>
