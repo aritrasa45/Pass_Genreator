@@ -8,6 +8,7 @@
 <li>asks user for length of passwords and genereates password with given length in loop</li>
 
 <h2>how to install??</h2>
+<br>
 
 <pre>git clone https://github.com/aritrasa45/Pass_Genreator.git</pre>
 <pre>cd Pass_Genreator</pre>
