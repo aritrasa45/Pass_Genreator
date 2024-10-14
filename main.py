@@ -21,8 +21,8 @@ time.sleep(0.5)
 
 while True:
 	pass_len = input(f"\nEnter the length of pass  :   ")
-	if pass_len == 'x' or pass_len == "X":
-		sys.exit()
+	if pass_len.lower() == "x":
+		sys.exit(0)
 		
 	else:
 		try:
